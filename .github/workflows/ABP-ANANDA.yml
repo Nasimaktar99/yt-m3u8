@@ -36,7 +36,7 @@ jobs:
         run: |
           git pull
           git config --global user.email "Nasimaktar.wb@gmail.com"
-          git config --global user.name "Nasimaktar99"
+          git config --global user.name "Nasimaktar99'S"
       
       
       - name: Main
