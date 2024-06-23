@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: beIN SPORTS HABER
+name: ABP ANANDA 
 
 # Controls when the action will run. 
 on:
@@ -34,15 +34,15 @@ jobs:
       - name: config
         run: |
           git pull
-          git config --global user.email "zaid.zer9@gmail.com"
-          git config --global user.name "ZazerConer's"
+          git config --global user.email "Nasimaktar.wb@gmail.com"
+          git config --global user.name "Nasimaktar99"
       
       
       - name: Main
         run: |
           pwd
-          chmod +x beinsports-haber.sh
-          ./beinsports-haber.sh
+          chmod +x ABP-ANANDA.sh
+          ./ABP-ANANDA.sh
         
       - name: git add
         run: |
